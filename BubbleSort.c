@@ -22,8 +22,8 @@ int main(){
 		numeros[p]=numero;
 		p++;
 	}
-	for(i=0;i<p;i++){
-		for(j=0;j<p;j++){
+	for(i=0;i<p-1;i++){
+		for(j=0;j<p-i-1;j++){
 			if(numeros[j]>numeros[j+1]){
 				aux=numeros[j];
 				numeros[j]=numeros[j+1];
